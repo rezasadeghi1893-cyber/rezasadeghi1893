@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="خدمات وکالت توسط وکیل پایه یک دادگستری در اصفهان. تخصص در پرونده‌های خانواده، ملکی و کیفری. مشاوره حضوری و آنلاین.">
+    <meta name="description"
+        content="دفتر وکالت آقای محمد وحید دستجردی در اصفهان ارائه‌دهنده خدمات حقوقی در حوزه خانواده، کیفری و ملکی. مشاوره حضوری و آنلاین با وکیل پایه یک دادگستری.">
+    <title>وکیل پایه یک دادگستری اصفهان | مشاوره حقوقی تخصصی</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Preconnect برای منابع خارجی -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- بارگذاری فونت‌ها بهینه -->
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Preload تصاویر کلیدی -->
+    <link rel="preload" href="/images/lawyer-esfahan.jpg" as="image">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- React and Babel -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+</head>
+
+<body>
+
+    <span class="scrolltop"><i class="bi bi-arrow-up-short"></i></span>
+
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img src="LastUpdate.jpg" loading="lazy" alt="وکیل پایه یک" width="80" height="50"> وکیل پایه یک
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">خانه</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">درباره ما</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">خدمات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#articles">مقالات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#question">پرسش و پاسخ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">تماس با ما</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section" style="height: 100vh;">
+        <div class="container">
+            <div class=" row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <div id="test"></div>
+                        <h1 id="blurback" class="hero-logo">دفتر وکالت تخصصی</h1>
+                        <p id="blurback" class="hero-subtitle">با بیش از 15 سال سابقه درخشان در زمینه وکالت و ارائه
+                            خدمات حقوقی به
+                            موکلین محترم</p>
+                        <button class="btn-sm btn-primary-new">
+                            <i class="fas fa-phone"></i> مشاوره رایگان
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="about-image">
+                        <img src="https://dr-hamid-ahmadyrad.com/images/IMG_2064.jpg" loading="lazy" alt="دفتر وکالت"
+                            class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="about-content">
+                        <h2 class="section-title">درباره ما</h2>
+                        <p class="text-muted mb-4">
+                            دفتر وکالت ما با مدیریت وکیل پایه یک دادگستری، با سابقه‌ای درخشان و تخصص در زمینه‌های مختلف
+                            حقوقی،
+                            آماده ارائه خدمات حقوقی به شما عزیزان می‌باشد. ما با بهره‌گیری از دانش روز و تجربه عملی،
+                            بهترین راهکارهای حقوقی را برای مشکلات شما ارائه می‌دهیم.
+                        </p>
+                        <div class="row mb-4">
+                            <div class="col-6">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="fas fa-check-circle text-success me-2"></i>
+                                    <span class="mx-1">15 سال سابقه </span>
+                                </div>
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="fas fa-check-circle text-success me-2"></i>
+                                    <span class="mx-1">صد پرونده موفق</span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="fas fa-check-circle text-success me-2"></i>
+                                    <span class="mx-1">تخصص در امور </span>
+                                </div>
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="fas fa-check-circle text-success me-2"></i>
+                                    <span class="mx-1">مشاوره تخصصی</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary-custom">مشاهده رزومه</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">خدمات ما</h2>
+                <p class="text-muted">خدمات تخصصی حقوقی ارائه شده توسط دفتر وکالت ما</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-gavel"></i>
+                        </div>
+                        <h4>امور کیفری</h4>
+                        <p class="text-muted">دفاع از موکلین در پرونده‌های کیفری و ارائه مشاوره در این زمینه</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-file-contract"></i>
+                        </div>
+                        <h4>امور حقوقی</h4>
+                        <p class="text-muted">مشاوره و وکالت در دعاوی حقوقی، قراردادها و مطالبات</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h4>امور ملکی</h4>
+                        <p class="text-muted">مشاوره و وکالت در پرونده‌های ملکی، خرید و فروش و املاک</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>امور خانواده</h4>
+                        <p class="text-muted">مشاوره و وکالت در دعاوی خانوادگی، طلاق، حضانت و مهریه</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h4>امور کار و تأمین اجتماعی</h4>
+                        <p class="text-muted">دفاع از حقوق کارگران و کارفرمایان در دعاوی کار</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-landmark"></i>
+                        </div>
+                        <h4>امور اداری</h4>
+                        <p class="text-muted">پیگیری امور اداری و دعاوی مربوط به سازمان‌های دولتی</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles Section -->
+    <section id="articles" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">مقالات حقوقی</h2>
+                <p class="text-muted">مطالب آموزشی و اطلاع‌رسانی در زمینه مسائل حقوقی</p>
+            </div>
+
+
+
+
+
+            <main class="container my-5">
+                <!-- Search Section -->
+                <section id="search-section" class="mb-4">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <div class="search-container" data-aos="fade-up">
+                                <input type="text" id="search-input" class="form-control search-input"
+                                    placeholder="جستجوی مقالات ...">
+                                <button class="btn btn-primary" id="search-btn">
+                                    <i class="fas fa-search"></i>
+                                </button>
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Initial Preview of Articles (4 cards) -->
+                <section id="articles-preview">
+                    <h2 class="mb-4">آخرین مقالات</h2>
+                    <div class="row" id="articles-preview-container">
+                        <!-- Cards will be dynamically inserted here by JS -->
+                    </div>
+                    <div class="text-center mt-4">
+                        <button id="show-all-btn" class="btn btn-primary-custom">نمایش همه مقالات</button>
+                    </div>
+                </section>
+
+                <!-- All Articles View (12 cards) - Initially Hidden -->
+                <section id="all-articles-view" style="display: none;">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h2>همه مقالات</h2>
+                        <button id="back-to-preview-btn" class="btn btn-secondary">
+                            <i class="fas fa-arrow-right"></i> بازگشت
+                        </button>
+                    </div>
+                    <div class="row" id="all-articles-container">
+                        <!-- All cards will be dynamically inserted here by JS -->
+                    </div>
+                </section>
+
+            </main>
+
+            <!-- Article Detail Modal -->
+            <div class="modal fade" id="articleModal" tabindex="-1" aria-labelledby="articleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="articleModalLabel"></h5>
+                            <button style="margin-right: 50%; background-color:red" type="button" class="btn-close"
+                                data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img loading="lazy" id="modal-image" src="" class="img-fluid rounded mb-3" alt="">
+                            <div id="modal-full-text"></div>
+
+                            <hr>
+
+                            <!-- Displayed Comments Section -->
+                            <div id="comments-list" class="mt-4">
+                                <h4>نظرات کاربران</h4>
+                                <!-- Comments will be dynamically inserted here -->
+                            </div>
+
+                            <!-- Rating and Comment Form -->
+                            <div class="comment-section mt-4">
+                                <h4>ثبت نظر و امتیاز شما</h4>
+                                <form id="comment-form" novalidate>
+                                    <div class="mb-3">
+                                        <label for="user-name" class="form-label">نام</label>
+                                        <input type="text" class="form-control" id="user-name" required>
+                                        <div class="invalid-feedback">لطفا نام خود را وارد کنید.</div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="user-email" class="form-label">ایمیل</label>
+                                        <input type="email" class="form-control" id="user-email" required>
+                                        <div class="invalid-feedback">لطفا یک ایمیل معتبر وارد کنید.</div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label class="form-label">امتیاز شما</label>
+                                        <div id="star-rating" class="mb-2">
+                                            <i class="far fa-star star" data-value="1"></i>
+                                            <i class="far fa-star star" data-value="2"></i>
+                                            <i class="far fa-star star" data-value="3"></i>
+                                            <i class="far fa-star star" data-value="4"></i>
+                                            <i class="far fa-star star" data-value="5"></i>
+                                        </div>
+                                        <input type="hidden" id="rating-value" value="0" required>
+                                        <div class="invalid-feedback d-block" id="rating-error">لطفا امتیاز خود را
+                                            انتخاب کنید.</div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="user-comment" class="form-label">متن نظر</label>
+                                        <textarea class="form-control" id="user-comment" rows="3" required></textarea>
+                                        <div class="invalid-feedback">لطفا متن نظر خود را بنویسید.</div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">ثبت نظر</button>
+                                </form>
+                                <div id="form-feedback" class="mt-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <!-- Articles Grid -->
+            <div id="articlesContainer" class="row">
+                <!-- Articles will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Question Section-->
+    <section id="question" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">پرسش و پاسخ</h2>
+                <p class="text-muted">جهت ثبت نظر یا ثبت سوالات خود لطفا فرم زیر را کامل کنید</p>
+            </div>
+            <div class="container">
+                <div class="form-container">
+
+                    <form id="contactForm" novalidate>
+                        <div class="form-group">
+                            <label for="fullName" class="form-label">نام و نام خانوادگی <span
+                                    class="text-danger">*</span></label>
+                            <div class="icon-input">
+                                <i class="bi bi-person"></i>
+                                <input type="text" class="form-control" id="fullName"
+                                    placeholder="نام و نام خانوادگی خود را وارد کنید" required>
+                                <div class="invalid-feedback">لطفاً نام و نام خانوادگی خود را وارد کنید</div>
+                                <div class="valid-feedback">معتبر است</div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">آدرس ایمیل <span class="text-danger">*</span></label>
+                            <div class="icon-input">
+                                <i class="bi bi-envelope"></i>
+                                <input type="email" class="form-control" id="email" placeholder="example@email.com"
+                                    required>
+                                <div class="invalid-feedback">لطفاً یک آدرس ایمیل معتبر وارد کنید</div>
+                                <div class="valid-feedback">معتبر است</div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mobile" class="form-label">شماره موبایل <span
+                                    class="text-danger">*</span></label>
+                            <div class="icon-input">
+                                <i class="bi bi-phone"></i>
+                                <input type="tel" class="form-control" id="mobile" placeholder="09#########" required>
+                                <div class="invalid-feedback">لطفاً یک شماره موبایل معتبر وارد کنید (مثل:
+                                    09#########)</div>
+                                <div class="valid-feedback">معتبر است</div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="description" class="form-label">توضیحات <span
+                                    class="text-danger">*</span></label>
+                            <div class="icon-input">
+                                <i class="bi bi-chat-text"></i>
+                                <textarea class="form-control" id="description" rows="4"
+                                    placeholder="توضیحات خود را اینجا وارد کنید" required></textarea>
+                                <div class="invalid-feedback">لطفاً توضیحات خود را وارد کنید</div>
+                                <div class="valid-feedback">معتبر است</div>
+                            </div>
+                        </div>
+
+                        <button style="margin-left: auto; margin-right: auto; display: block" type="submit"
+                            class="btn btn-primary-custom">ارسال
+                            فرم</button>
+
+                        <div class="success-message" id="successMessage">
+                            <i class="bi bi-check-circle-fill"></i> فرم شما با موفقیت ارسال شد!
+                        </div>
+                    </form>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">تماس با ما</h2>
+                <p class="text-muted">برای دریافت مشاوره حقوقی با ما در ارتباط باشید</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4" data-aos="fade-right">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h5>تلفن تماس</h5>
+                                <p class="text-muted mb-0">021-12345678</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h5>ایمیل</h5>
+                                <p class="text-muted mb-0">info@lawyer.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h5>آدرس</h5>
+                                <p class="text-muted mb-0">تهران، خیابان ولیعصر، پلاک 123</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h5>ساعت کاری</h5>
+                                <p class="text-muted mb-0">شنبه تا چهارشنبه: 9-18</p>
+                                <p class="text-muted">پنج‌شنبه: 9-14</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 mb-4" data-aos="fade-left">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-3">دفتر وکالت</h5>
+                    <p class="text-white">ارائه خدمات حقوقی با کیفیت و تخصصی به شما عزیزان</p>
+                    <div style="margin-left:25%;" class="social-links mt-3">
+
+                        <div class="social-icons">
+                            <!-- Instagram -->
+                            <div class="social-icon instagram"
+                                onclick="handleSocialClick('instagram', 'https://instagram.com')">
+                                <i class="fab fa-instagram"></i>
+                                <span class="tooltip-custom">اینستاگرام</span>
+                            </div>
+
+                            <!-- WhatsApp -->
+                            <div class="social-icon whatsapp" onclick="handleSocialClick('whatsapp', 'https://wa.me')">
+                                <i class="fab fa-whatsapp"></i>
+                                <span class="tooltip-custom">واتساپ</span>
+                            </div>
+
+                            <!-- Telegram -->
+                            <div class="social-icon telegram" onclick="handleSocialClick('telegram', 'https://t.me')">
+                                <i class="fab fa-telegram-plane"></i>
+                                <span class="tooltip-custom">تلگرام</span>
+                            </div>
+
+                            <!-- Eita -->
+                            <div class="social-icon eita" onclick="handleSocialClick('eita', 'https://eitaa.com')">
+                                <i class="fas fa-comments"></i>
+                                <span class="tooltip-custom">ایتا</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-3">لینک‌های سریع</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#home" class="text-white text-decoration-none">خانه</a></li>
+                        <li class="mb-2"><a href="#about" class="text-white text-decoration-none">درباره ما</a></li>
+                        <li class="mb-2"><a href="#services" class="text-white text-decoration-none">خدمات</a></li>
+                        <li class="mb-2"><a href="#articles" class="text-white text-decoration-none">مقالات</a></li>
+                        <li class="mb-2"><a href="#question" class="text-white text-decoration-none">پرسش و پاسخ</a>
+                        </li>
+                        <li class="mb-2"><a href="#contact" class="text-white text-decoration-none">تماس با ما</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 class="mb-3">خبرنامه</h5>
+                    <p class="text-white">برای دریافت آخرین مقالات حقوقی در خبرنامه ما عضو شوید</p>
+                    <form class="mt-3">
+                        <div class="input-group">
+                            <input type="email" style="border-radius: 20px 20px 20px 20px ;" class="form-control"
+                                placeholder="ایمیل شما">
+                            <button style="border-radius:  20px 20px 20px 20px ;" class="btn btn-warning"
+                                type="submit">عضویت</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="my-4 border-white">
+            <div class="text-center">
+                <p class="mb-0 text-white-50">&copy; 2024 تمامی حقوق محفوظ است. طراحی و توسعه توسط تیم ما</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Article Detail Modal -->
+    <div class="modal fade" id="articleModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                    <!-- Article content will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <script src="script.js"></script>
+
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "دفتر وکالت آقای محمد وحید دستجردی",
+  "image": "https://example.com/images/office.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "خیابان نقش جهان، پلاک 12",
+    "addressLocality": "اصفهان",
+    "addressRegion": "اصفهان",
+    "postalCode": "8146834311"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 32.6572,
+    "longitude": 51.6776
+  },
+  "url": "https://example.com",
+  "telephone": "+98-31-12345678"
+}
+</script>
+
+
+    <script>
+        jQuery(window).scroll(function () {
+            if (jQuery(this).scrollTop() < 1000) {
+                jQuery('.scrolltop').fadeOut();
+            }
+            else {
+                jQuery('.scrolltop').fadeIn();
+            }
+        });
+        jQuery('.scrolltop').click(function () {
+            jQuery('body,html').animate({ scrollTop: 0 }, 100);
+            return false;
+        });
+    </script>
+
+    <script>
+
+
+        // Initialize map (placeholder - in real implementation, use Google Maps API)
+        function initMap() {
+            const mapContainer = document.getElementById('map');
+            mapContainer.innerHTML = `
+                <div style="width: 100%; height: 100%; background: #e0e0e0; display: flex; align-items: center; justify-content: center; color: #666;">
+                    <div style="text-align: center;">
+                        <i class="fas fa-map-marked-alt" style="font-size: 3rem; margin-bottom: 10px;"></i>
+                        <p>نقشه گوگل در اینجا نمایش داده می‌شود</p>
+                        <small class="text-muted">برای مشاهده نقشه واقعی، کلید API گوگل مپ لازم است</small>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Initialize map when page loads
+        document.addEventListener('DOMContentLoaded', initMap);
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+
+
+
+
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const form = document.getElementById('contactForm');
+            const fullName = document.getElementById('fullName');
+            const email = document.getElementById('email');
+            const mobile = document.getElementById('mobile');
+            const description = document.getElementById('description');
+            const successMessage = document.getElementById('successMessage');
+
+            // اعتبارسنجی نام و نام خانوادگی
+            function validateFullName() {
+                if (fullName.value.trim() === '') {
+                    fullName.classList.add('is-invalid');
+                    fullName.classList.remove('is-valid');
+                    return false;
+                } else {
+                    fullName.classList.remove('is-invalid');
+                    fullName.classList.add('is-valid');
+                    return true;
+                }
+            }
+
+            // اعتبارسنجی ایمیل
+            function validateEmail() {
+                const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+                if (!emailRegex.test(email.value)) {
+                    email.classList.add('is-invalid');
+                    email.classList.remove('is-valid');
+                    return false;
+                } else {
+                    email.classList.remove('is-invalid');
+                    email.classList.add('is-valid');
+                    return true;
+                }
+            }
+
+            // اعتبارسنجی شماره موبایل ایران
+            function validateMobile() {
+                const mobileRegex = /^09(1[0-9]|3[1-9]|2[1-9])-?[0-9]{3}-?[0-9]{4}$/;
+                if (!mobileRegex.test(mobile.value)) {
+                    mobile.classList.add('is-invalid');
+                    mobile.classList.remove('is-valid');
+                    return false;
+                } else {
+                    mobile.classList.remove('is-invalid');
+                    mobile.classList.add('is-valid');
+                    return true;
+                }
+            }
+
+            // اعتبارسنجی توضیحات
+            function validateDescription() {
+                if (description.value.trim() === '') {
+                    description.classList.add('is-invalid');
+                    description.classList.remove('is-valid');
+                    return false;
+                } else {
+                    description.classList.remove('is-invalid');
+                    description.classList.add('is-valid');
+                    return true;
+                }
+            }
+
+            // رویداد input برای بازخورد فوری
+            fullName.addEventListener('input', validateFullName);
+            email.addEventListener('input', validateEmail);
+            mobile.addEventListener('input', validateMobile);
+            description.addEventListener('input', validateDescription);
+
+            // رویداد blur برای تایید نهایی
+            fullName.addEventListener('blur', validateFullName);
+            email.addEventListener('blur', validateEmail);
+            mobile.addEventListener('blur', validateMobile);
+            description.addEventListener('blur', validateDescription);
+
+            // رویداد submit فرم
+            form.addEventListener('submit', function (event) {
+                event.preventDefault();
+
+                const isFullNameValid = validateFullName();
+                const isEmailValid = validateEmail();
+                const isMobileValid = validateMobile();
+                const isDescriptionValid = validateDescription();
+
+                if (isFullNameValid && isEmailValid && isMobileValid && isDescriptionValid) {
+                    // نمایش پیام موفقیت
+                    successMessage.style.display = 'block';
+
+                    // پاک کردن فرم پس از ارسال موفق
+                    setTimeout(() => {
+                        form.reset();
+                        fullName.classList.remove('is-valid', 'is-invalid');
+                        email.classList.remove('is-valid', 'is-invalid');
+                        mobile.classList.remove('is-valid', 'is-invalid');
+                        description.classList.remove('is-valid', 'is-invalid');
+                        successMessage.style.display = 'none';
+                    }, 3000);
+                } else {
+                    // اگر اعتبارسنجی شکست خورد، یک پیام خطا نمایش بده
+                    const alert = document.createElement('div');
+                    alert.className = 'alert alert-danger alert-dismissible fade show mt-3';
+                    alert.innerHTML = `
+                <strong>خطا!</strong> لطفاً تمام فیلدهای الزامی را به درستی تکمیل کنید.
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            `;
+                    form.appendChild(alert);
+
+                    // حذف پیام خطا بعد از 3 ثانیه
+                    setTimeout(() => {
+                        alert.remove();
+                    }, 2000);
+                }
+            });
+        });
+
+    </script>
+
+
+
+
+</body>
+
+</html>
